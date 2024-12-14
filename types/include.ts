@@ -1,11 +1,5 @@
-export type Trains = {
-    from: number;
-    to: number;
-}
-
-export type Starred = {
+export type Product = {
     name: string;
-    icon: string;
-    from: number;
-    to: number;
+    price: number;
+    image: string;
 }
